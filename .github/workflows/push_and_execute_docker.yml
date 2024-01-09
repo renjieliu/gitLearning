@@ -1,5 +1,5 @@
 name: Run Docker Container
-#on: [push]
+on: [push]
 
 jobs:
   run-container:
@@ -15,6 +15,6 @@ jobs:
 
     - name: Run Docker Container
       run: |
-        docker pull my-docker-image:latest
-        docker run my-docker-image:latest /path/to/my-script.sh
+        docker pull liurenjie/ubuntu:mail_20240109
+        docker run liurenjie/ubuntu:mail_20240109 /bin/bash -c 'echo "Hello from ${HOSTNAME} mail test" | mail -s "Hello from ${HOSTNAME} mail test" anlrj@qq.com'
 		
