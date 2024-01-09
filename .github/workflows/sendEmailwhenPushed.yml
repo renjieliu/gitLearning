@@ -1,4 +1,4 @@
-name: GitHub Actions Demo
+name: Send email when pushed
 on: [push]
 jobs:
   sending-email:
