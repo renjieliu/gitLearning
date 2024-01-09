@@ -1,4 +1,4 @@
-name: Run Docker Container
+name: Run_Docker_Container
 on: [push]
 
 jobs:
