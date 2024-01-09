@@ -1,0 +1,17 @@
+#work flow --> jobs --> step --> action
+name: This is my workflow file, used for github action
+on: push
+
+jobs:
+  build:
+    name: Hello world action
+    runs-on: gitLearning
+
+    steps: 
+      # below are actions
+      - uses:
+      - uses:
+      with:
+        MY_NAME: "Renjie"
+
+
