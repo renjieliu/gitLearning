@@ -1,4 +1,4 @@
-name: Send email when pushed
+name: send email when pushed
 on: [push]
 jobs:
   sending-email:
